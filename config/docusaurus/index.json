@@ -17,17 +17,18 @@
         {
           "label": "Камеры аналитики водителя",
           "link": "doc",
-          "docLink": "docs/application.mdx"
+          "docLink": "docs/LA-DMS-IP-G1.mdx"
         },
         {
           "label": "Антивандальные камеры",
           "link": "doc",
-          "docLink": "docs/Система аналитики/mds.mdx",
+          "docLink": "docs/LA-CAM-DAH.mdx",
           "pageLink": "src/pages/contacts.mdx"
         },
         {
           "label": "Камеры курсовые",
-          "link": "page",
+          "link": "doc",
+          "docLink": "docs/LA-CRS-ADAS.mdx",
           "pageLink": "src/pages/La_Programm.mdx",
           "position": "left"
         }
@@ -38,33 +39,21 @@
       "position": "left",
       "items": [
         {
-          "label": "16-канальные",
-          "link": "doc",
-          "docLink": "docs/Регистраторы/mds.mdx",
-          "position": "left"
-        },
-        {
           "label": "8-канальные",
           "link": "doc",
-          "docLink": "docs/intro.mdx",
+          "docLink": "docs/LA-AMRH044.mdx",
           "position": "left"
         },
         {
           "label": "4-канальные",
           "link": "doc",
-          "docLink": "docs/intro.mdx",
-          "position": "left"
-        },
-        {
-          "label": "Стационарные",
-          "link": "doc",
-          "docLink": "docs/intro.mdx",
+          "docLink": "docs/LA-AMRH041.mdx",
           "position": "left"
         },
         {
           "label": "Портативные",
           "link": "doc",
-          "docLink": "docs/intro.mdx",
+          "docLink": "docs/LA-AMRH022.mdx",
           "position": "left"
         },
         {
@@ -83,12 +72,14 @@
       "items": [
         {
           "label": "Для локомотивов и крупного транспорта",
-          "link": "page",
+          "link": "doc",
+          "docLink": "docs/LA-10MR.mdx",
           "pageLink": "src/pages/contacts.mdx"
         },
         {
           "label": "Для грузового транспорта и спецтехники",
-          "link": "page",
+          "link": "doc",
+          "docLink": "docs/LA-LCD7.mdx",
           "pageLink": "src/pages/contacts.mdx",
           "position": "left"
         }
