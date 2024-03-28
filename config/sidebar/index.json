@@ -35,12 +35,27 @@
         },
         {
           "title": "MDVR",
-          "link": "doc",
+          "link": "generated",
           "docLink": "docs/LA-AMRH022.mdx",
           "items": [
             {
               "document": "docs/LA-AWD.mdx",
               "label": "LA-AWD",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/LA-AMRH041.mdx",
+              "label": "LA-AMRH04/1",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/LA-AMRH044.mdx",
+              "label": "LA-AMRH04/4",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/LA-AMRH-84.mdx",
+              "label": "LA-AMRH08/8",
               "_template": "doc"
             }
           ],
@@ -125,39 +140,39 @@
       "link": "generated",
       "items": [
         {
-          "title": "Мониторы для крупного транспорта",
+          "title": "Мониторы для грузового транспорта и спецтехники",
           "link": "generated",
           "items": [
             {
-              "document": "docs/Мониторы/mds.mdx",
-              "label": "15 дюймов",
+              "document": "docs/LA-LCD7.mdx",
+              "label": "Монитор 7 дюймов",
               "_template": "doc"
             },
             {
-              "document": "docs/Мониторы/mds.mdx",
-              "label": "17 дюймов",
-              "_template": "doc"
-            },
-            {
-              "document": "docs/Мониторы/mds.mdx",
-              "label": "19 дюймов",
+              "document": "docs/LA-8LCD.mdx",
+              "label": "Монитор 8 дюймов",
               "_template": "doc"
             }
           ],
           "_template": "category"
         },
         {
-          "title": "Мониторы для грузового транспорта и спецтехники",
+          "title": "Мониторы для крупного транспорта",
           "link": "generated",
           "items": [
             {
-              "document": "docs/Мониторы/mds.mdx",
-              "label": "7 дюймов",
+              "document": "docs/LA-10MR.mdx",
+              "label": "Монитор 10 дюймов",
               "_template": "doc"
             },
             {
-              "document": "docs/Мониторы/mds.mdx",
-              "label": "10 дюймов",
+              "document": "docs/LA-15LCD.mdx",
+              "label": "Монитор 15 дюймов",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/LA-17LCD.mdx",
+              "label": "Монитор 17 дюймов",
               "_template": "doc"
             }
           ],
