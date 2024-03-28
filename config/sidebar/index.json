@@ -54,17 +54,32 @@
       "link": "generated",
       "items": [
         {
-          "title": "Камеры курсовы",
+          "title": "Умные камеры",
           "link": "generated",
           "items": [
+            {
+              "document": "docs/LA-DMS-AH.mdx",
+              "label": "Аналоговая камера контроля состояния водителя",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/LA-DMS-IP.mdx",
+              "label": "IP-камера контроля состояния водителя",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/LA-DMS-IP-G1.mdx",
+              "label": "IP-камера контроля состояния водителя",
+              "_template": "doc"
+            },
             {
               "document": "docs/LA-CRS-ADAS.mdx",
               "label": "Курсовая камера аналитики дорожного движения ",
               "_template": "doc"
             },
             {
-              "document": "docs/LA-CRS.mdx",
-              "label": "Курсовая камера без аналитики",
+              "document": "docs/LA-CountH.mdx",
+              "label": "Камера подсчёта пассажиропотока",
               "_template": "doc"
             }
           ],
@@ -75,13 +90,28 @@
           "link": "generated",
           "items": [
             {
-              "document": "docs/Видеорегистраторы/mds.mdx",
-              "label": "Аналоговые камеры",
+              "document": "docs/LA-CAM-CAH.mdx",
+              "label": "Аналоговая видеокамера",
               "_template": "doc"
             },
             {
-              "document": "docs/Камеры купольные антивандальные/mds.mdx",
-              "label": "IP камеры",
+              "document": "docs/LA-CAM-CIP.mdx",
+              "label": "IP-камера",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/LA-CAM-DIP.mdx",
+              "label": "Антивандальная IP-камера",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/LA-CAM-DAH.mdx",
+              "label": "Аналоговая антивандальная видеокамера",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/LA-CRS.mdx",
+              "label": "Курсовая камера",
               "_template": "doc"
             }
           ],
