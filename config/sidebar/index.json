@@ -54,6 +54,23 @@
       "link": "generated",
       "items": [
         {
+          "title": "Камеры курсовы",
+          "link": "generated",
+          "items": [
+            {
+              "document": "docs/LA-CRS-ADAS.mdx",
+              "label": "Курсовая камера аналитики дорожного движения ",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/LA-CRS.mdx",
+              "label": "Курсовая камера без аналитики",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
           "title": "Камеры видеонаблюдения",
           "link": "generated",
           "items": [
@@ -69,14 +86,6 @@
             }
           ],
           "_template": "category"
-        },
-        {
-          "document": "docs/tutorial-extras/manage-docs-versions.mdx",
-          "_template": "doc"
-        },
-        {
-          "document": "docs/tutorial-extras/translate-your-site.mdx",
-          "_template": "doc"
         }
       ],
       "_template": "category"
