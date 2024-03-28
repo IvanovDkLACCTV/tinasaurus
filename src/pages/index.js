@@ -18,6 +18,9 @@ export default function Home() {
       }
     >
       {pageData && pageData.blocks ? <Blocks blocks={pageData.blocks} /> : null}
+
+      
+      
     </Layout>
   );
 }

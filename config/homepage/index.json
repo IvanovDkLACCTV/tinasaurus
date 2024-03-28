@@ -1,32 +1,41 @@
 {
   "label": "Homepage",
-  "title": "Hello from Tina + Docusaurus!",
+  "title": "Системы видеоаналитики в транспорте",
   "description": "Description will go into a meta tag in <head />",
   "blocks": [
     {
-      "document": "docs/intro.mdx",
-      "documentLabel": "Docusaurus Tutorial - 5min ⏱️",
+      "title": "Лидинг Альянс",
+      "subtitle": "C помощью инновационных технологий и слаженной работы команды профессионалов, мы делаем бизнес наших клиентов безопасным и эффективным!",
+      "document": "contacts",
+      "documentLabel": "Оставьте заявку - 5 минут ⏱️",
       "_template": "hero"
     },
     {
       "items": [
         {
-          "title": "Easy to Use",
-          "description": "Docusaurus was designed from the ground up to be easily installed and         used to get your website up and running quickly.\n",
-          "image": "/img/undraw_docusaurus_mountain.svg"
+          "title": "Для спецтехники",
+          "description": "Средства видео аудио фиксации на спецтехнике позволяют решать широкий круг задач; Контроль работы спецтехники (камера установленная на стреле экскаватора) позволяет зафиксировать повреждение комуникаций, транспорта, имущества установить и наказать виновных. Контролировать работу оператора и фиксировать работы допущенных к управлению лиц, Охранные функции спецтехники (местоположение на карте, выход за зону геолокации), так как секретом не является тот факт, что спецтехника являются предметом хищения.\n",
+          "image": "/img/digger1000x1000.png"
         },
         {
-          "title": "Focus on What Matters",
-          "description": "Docusaurus lets you focus on your docs, and we'll do the chores. Go ahead and move your docs into the docs directory.\n",
-          "image": "/img/undraw_docusaurus_tree.svg"
+          "title": "Для инкасаторских автомобилей",
+          "description": "Анализ и обоснование оснащения бронеавтомобиля техническими средствами видео/аудио фиксации.\n",
+          "image": "/img/bankcar1000x1000.svg"
         },
         {
-          "title": "Powered by React",
-          "description": "Extend or customize your website layout by reusing React. Docusaurus can         be extended while reusing the same header and footer.\n",
-          "image": "/img/undraw_docusaurus_react.svg"
+          "title": "Для бензовозов",
+          "description": "В специальные автомобили для перевоза нефтепродуктов (бензовозы), обычно устанавливают 4-х, 5 ти, 8 ми и 12 канальные авторегистраторы. Каждый тип авторегистратора обычно выбирается в зависимости от целей использования и необходимого количества каналов. Начнем с четырех канальных авторегистраторов самый бюджетный вариант, так как запись происходит на СД карты (из за аппаратных особенностей самого регитратора производство его значительно дешевле, чем под жесткий диск).\n",
+          "image": "/img/fueltruck1000x1000.png"
         }
       ],
       "_template": "features"
+    },
+    {
+      "title": "Выбор оборудования",
+      "subtitle": "Аналитика, видеорегистраторы, камеры и многое другое",
+      "document": "docs/tutorial-basics/congratulations.mdx",
+      "documentLabel": "Перейти",
+      "_template": "hero"
     }
   ]
 }

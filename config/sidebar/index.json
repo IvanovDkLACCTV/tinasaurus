@@ -6,36 +6,70 @@
       "_template": "doc"
     },
     {
-      "title": "Tutorial - Basics",
+      "title": "Регистраторы",
       "link": "generated",
       "items": [
         {
-          "document": "docs/tutorial-basics/create-a-page.mdx",
-          "_template": "doc"
+          "title": "Носимые",
+          "link": "generated",
+          "items": [
+            {
+              "document": "docs/LA-BR5.mdx",
+              "label": "LA-BR5",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
         },
         {
-          "document": "docs/tutorial-basics/create-a-document.mdx",
-          "_template": "doc"
+          "title": "Компактные",
+          "link": "generated",
+          "items": [
+            {
+              "document": "docs/LA-AMRH022.mdx",
+              "label": "LA-AMRH02-2",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
         },
         {
-          "document": "docs/tutorial-basics/create-a-blog-post.mdx",
-          "_template": "doc"
-        },
-        {
-          "document": "docs/tutorial-basics/deploy-your-site.mdx",
-          "_template": "doc"
-        },
-        {
-          "document": "docs/tutorial-basics/congratulations.mdx",
-          "_template": "doc"
+          "title": "MDVR",
+          "link": "doc",
+          "docLink": "docs/LA-AMRH022.mdx",
+          "items": [
+            {
+              "document": "docs/LA-AWD.mdx",
+              "label": "LA-AWD",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
         }
       ],
       "_template": "category"
     },
     {
-      "title": "Tutorial - Extras",
+      "title": "Камеры",
       "link": "generated",
       "items": [
+        {
+          "title": "Камеры видеонаблюдения",
+          "link": "generated",
+          "items": [
+            {
+              "document": "docs/Видеорегистраторы/mds.mdx",
+              "label": "Аналоговые камеры",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/Камеры купольные антивандальные/mds.mdx",
+              "label": "IP камеры",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
         {
           "document": "docs/tutorial-extras/manage-docs-versions.mdx",
           "_template": "doc"
@@ -48,35 +82,50 @@
       "_template": "category"
     },
     {
-      "title": "Nested Link",
-      "link": "none",
+      "title": "Мониторы",
+      "link": "generated",
       "items": [
         {
-          "title": "Level 2",
-          "link": "none",
+          "title": "Мониторы для крупного транспорта",
+          "link": "generated",
           "items": [
             {
-              "title": "Level 3",
-              "link": "none",
-              "items": [
-                {
-                  "document": "docs/test-page.mdx",
-                  "label": "",
-                  "_template": "doc"
-                }
-              ],
-              "_template": "category"
+              "document": "docs/Мониторы/mds.mdx",
+              "label": "15 дюймов",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/Мониторы/mds.mdx",
+              "label": "17 дюймов",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/Мониторы/mds.mdx",
+              "label": "19 дюймов",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "Мониторы для грузового транспорта и спецтехники",
+          "link": "generated",
+          "items": [
+            {
+              "document": "docs/Мониторы/mds.mdx",
+              "label": "7 дюймов",
+              "_template": "doc"
+            },
+            {
+              "document": "docs/Мониторы/mds.mdx",
+              "label": "10 дюймов",
+              "_template": "doc"
             }
           ],
           "_template": "category"
         }
       ],
       "_template": "category"
-    },
-    {
-      "title": "Tina.io",
-      "href": "https://tina.io/",
-      "_template": "link"
     }
   ]
 }

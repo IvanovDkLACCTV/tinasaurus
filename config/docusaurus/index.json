@@ -1,47 +1,111 @@
 {
   "label": "Settings",
+  "logo": {
+    "alt": "LA",
+    "src": "/img/favicon.ico"
+  },
+  "title": "Leading Alliance",
+  "tagline": "Компания «ЛА» на протяжении 6 лет, является производителем и поставщиком систем видеонаблюдения на транспорте.",
+  "url": "https://lacctv.ru",
   "navbar": [
     {
-      "label": "Docs",
+      "label": "Камеры",
       "link": "doc",
       "docLink": "docs/intro.mdx",
-      "position": "left"
+      "position": "left",
+      "items": [
+        {
+          "label": "Камеры аналитики водителя",
+          "link": "doc",
+          "docLink": "docs/application.mdx"
+        },
+        {
+          "label": "Антивандальные камеры",
+          "link": "doc",
+          "docLink": "docs/Система аналитики/mds.mdx",
+          "pageLink": "src/pages/contacts.mdx"
+        },
+        {
+          "label": "Камеры курсовые",
+          "link": "page",
+          "pageLink": "src/pages/La_Programm.mdx",
+          "position": "left"
+        }
+      ]
     },
     {
-      "label": "Blog",
-      "link": "blog",
-      "position": "left"
+      "label": "Регистраторы",
+      "position": "left",
+      "items": [
+        {
+          "label": "16-канальные",
+          "link": "doc",
+          "docLink": "docs/Регистраторы/mds.mdx",
+          "position": "left"
+        },
+        {
+          "label": "8-канальные",
+          "link": "doc",
+          "docLink": "docs/intro.mdx",
+          "position": "left"
+        },
+        {
+          "label": "4-канальные",
+          "link": "doc",
+          "docLink": "docs/intro.mdx",
+          "position": "left"
+        },
+        {
+          "label": "Стационарные",
+          "link": "doc",
+          "docLink": "docs/intro.mdx",
+          "position": "left"
+        },
+        {
+          "label": "Портативные",
+          "link": "doc",
+          "docLink": "docs/intro.mdx",
+          "position": "left"
+        },
+        {
+          "label": "Носимые",
+          "link": "doc",
+          "docLink": "docs/LA-BR5.mdx",
+          "position": "left"
+        }
+      ]
     },
     {
-      "label": "MDX Page",
+      "label": "Мониторы",
       "link": "page",
-      "docLink": "src/pages/Test-MDX-Page.mdx",
-      "pageLink": "src/pages/Test-MDX-Page.mdx",
-      "position": "left"
+      "pageLink": "src/pages/contacts.mdx",
+      "position": "left",
+      "items": [
+        {
+          "label": "Для локомотивов и крупного транспорта",
+          "link": "page",
+          "pageLink": "src/pages/contacts.mdx"
+        },
+        {
+          "label": "Для грузового транспорта и спецтехники",
+          "link": "page",
+          "pageLink": "src/pages/contacts.mdx",
+          "position": "left"
+        }
+      ]
     },
     {
-      "label": "Docusaurus GitHub",
-      "link": "external",
-      "externalLink": "https://github.com/facebook/docusaurus",
-      "position": "right"
-    },
-    {
-      "label": "Tina",
-      "link": "external",
-      "externalLink": "https://tina.io/",
+      "label": "Контакты",
+      "link": "page",
+      "pageLink": "src/pages/contacts.mdx",
       "position": "right"
     }
   ],
-  "logo": {
-    "alt": "Tina",
-    "src": "/img/tina-icon.svg"
-  },
-  "title": "Tinasaurus",
   "footer": {
-    "style": "dark",
+    "style": "light",
     "links": [
       {
-        "title": "Docs",
+        "title": "Решения",
         "items": [
           {
             "label": "Introduction",
@@ -51,41 +115,26 @@
         ]
       },
       {
-        "title": "Community",
+        "title": "О нас",
         "items": [
           {
-            "label": "Stack Overflow",
-            "href": "https://stackoverflow.com/questions/tagged/docusaurus",
-            "_template": "external"
-          },
-          {
-            "label": "Discord",
-            "href": "https://discordapp.com/invite/docusaurus",
-            "_template": "external"
-          },
-          {
-            "label": "Twitter",
-            "href": "https://twitter.com/docusaurus",
-            "_template": "external"
+            "label": "О нас",
+            "to": "src/pages/La_Programm.mdx",
+            "_template": "internal"
           }
         ]
       },
       {
-        "title": "More",
+        "title": "Примеры работы",
         "items": [
           {
-            "label": "Blog",
-            "_template": "blog"
-          },
-          {
-            "label": "GitHub",
-            "href": "https://github.com/facebook/docusaurus",
-            "_template": "external"
+            "label": "Наши партнёры",
+            "to": "src/pages/La_Programm.mdx",
+            "_template": "internal"
           }
         ]
       }
     ],
-    "copyright": "My Project, Inc. Built with Docusaurus."
-  },
-  "url": "https://tinasaurus.vercel.app/"
+    "copyright": "ООО \"ЛА\""
+  }
 }
