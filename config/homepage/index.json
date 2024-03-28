@@ -33,7 +33,7 @@
     {
       "title": "Выбор оборудования",
       "subtitle": "Аналитика, видеорегистраторы, камеры и многое другое",
-      "document": "docs/tutorial-basics/congratulations.mdx",
+      "document": "docs/intro.mdx",
       "documentLabel": "Перейти",
       "_template": "hero"
     }
